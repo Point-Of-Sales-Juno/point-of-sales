@@ -1,3 +1,5 @@
+import firebase from "./firebaseConfig";
+import { getDatabase, ref, set, update } from "firebase/database"
 import { useState } from "react";
 import "./App.css";
 
